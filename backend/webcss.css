@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Averia+Libre&family=Bebas+Neue&family=Berkshire+Swash&family=Comfortaa:wght@700&family=Concert+One&family=Fredoka+One&family=Mochiy+Pop+One&family=Patrick+Hand&family=Permanent+Marker&family=Righteous&family=Roboto:wght@500&family=Rubik+Moonrocks&family=Secular+One&display=swap');
+@media screen and (min-width:1110px) {
+    .bttn .link:hover {
+
+border-radius: 0px;
+   
+
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Patrick Hand', 'Roboto', 'Secular One', 'Bebas Neue';
+}
+
+body {
+    background-color: rgb(4, 2, 4);
+    overflow: auto;
+}
+.space{
+    height: 50vh;
+}
+.container {
+    background-color: rgb(4, 2, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.bttn {
+    margin: 30px;
+}
+
+.bttn .link {
+    text-decoration: none;
+    color: aqua;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    border: 2px solid aqua;
+    padding: 10px;
+    width: 9rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 59px aqua;
+}
+
+.bttn .link:hover {
+
+    color: rgb(224, 252, 11);
+    border: 2px solid aqua;
+    animation: rotate 0.1s ease-in;
+    box-shadow: inset 1px 0px 100px 8px rgb(239, 59, 131);
+    border-radius: 0px;
+   
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}

@@ -1,6 +1,6 @@
 # Website Hub
 
-This is a folder with some websites I made. 
+
 
 You can view the live site here: https://website-op.netlify.app/
 
